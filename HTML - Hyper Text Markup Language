@@ -1,0 +1,111 @@
+-> HTML - Hypertext Markup language.
+-> It is basically used to create web pages.
+
+Creating a HTML file:
+          1. Create a folder for my project.
+          2. Add folder to the text editor.
+          3. Create new file with extension html.
+-> HTML is a language that's used to define layouts for web pages.
+-> Tags are used to define those layouts.
+-> Tags are used to create a webpage the way we want it to look and what content we want to have on the website.
+Basic Tags:
+      -> <!DOCTYPE html>  -> refers to the type of the document is HTMl.
+      -> Container Tags: ( Basically there are two tags starting tag and there's an ending tag and we can put other tags inside of them)
+                HTML Tags:
+                -> <html>  = starting tag.
+                -> </html> = ending tag.
+                -> <html></html> = This is highest level tag in our website and overall container tag for our website.
+                -> Every code is placed between the starting and ending tag
+                
+                Head tags:
+                -> It defines data about the document.
+                -> It can define things like the title of the document, the description,defines other attributes about the document like image that's associated to the document.
+                -> It is use to import any resources that we need into our HTML file.
+                -> It's like a command center.
+                -> It's sort of like metadata about the actual file.
+                -> <head>   -> starting of head tag
+                -> </head>  ->ending of the head tag
+                
+                Body tags:
+                -> The body is where we are actually putting all the content for your web page.
+                -> <body>   -> starting of body tag
+                -> </body>  -> ending of body tag
+                
+                Title tag:
+                -> It holds title of the website.
+                -> It is used to hold the text and this is going to be the title of the website.
+                -> <title>  ->starting of title tag
+                -> </title>  ->ending of the title tag
+                
+                Meta tag:
+                -> It is basically a defines the information about our file.
+                -> It gives us metadata about our HTML file.
+                -> <meta charset="UTF-8"> = tells the web browser what types of character is used inside the document.
+                
+                Heading tag:
+                -> Its can be used to headers.
+                -> It helps headers to look little bit bigger and bolder than normal text.
+                eg: heading tags 
+                -> <h1></h1> Bigger size
+                -> <h2></h2>
+                -> <h3></h3>
+                -> <h4></h4>
+                -> <h5></h5>
+                -> <h6></h6> Smaller size
+                
+                Paragraph tag:
+                -> It is used for regular textual information.
+                -> <p></p> paragraph tags.
+                
+                Bold tag:
+                -> It is used to bold the text inside it.
+                -> <b> any text </b>
+                
+                Italics tag:
+                -> <i>     -> It describes the given text in Italics 
+                
+                Break tag:( Single tag )
+                -> <br/>   -> It gives a space between the lines 
+                
+                Horizontal tag:( Single tag )
+                -> <hr/>   -> A new horizontal line comes between 
+                                
+                -> <big></big>   -> Font increases in size
+                -> <small></small> -> Font decreases in size  
+                -> <sub></sub>   -> It converts the text in subscript
+                -> <sup></sup>   -> It converts the text in superscript
+                
+                Comments tag: 
+                -> <!--   = Comment starting
+                -> -->    = Comment ending 
+                
+                Navigation tag:
+                -> <nav></nav> -> it contains navigational items like navigational lists or navigational links
+               
+Links in HTML:
+          -> It help us to link our website to other website on the internet.
+          -> It can be also used to link to files like images or PDFs and we can create those links and then users can look at those images or PDFs.
+          ->Eg Tag:
+          -> <a href="link"></a> => Link navigates in the same tab 
+          -> <a href="link" target="_blank"></a> -> This basically tells the browser to open up this link in a new tab.
+          -> <a href="html file">   ->to open other html file present in same folder
+          -> <a href="(folder name)/html file">   ->to open html file present in different folder
+          -> <a href="file">   ->open file in same folder
+
+Images in HTML: 
+          -> <img src="image link" alt="text if image is not present"/>   ->image from web
+          -> <img src="image file">   ->image in computer
+          -> <img width="100" height="100" src="image file">   ->to resize image
+
+Videos in HTML:          
+          -> <video src="video file"></video>   ->plays video without controls
+          -> <video src "video file" controls></video>   ->videos play with control
+          -> <video src "video file"poster="image file" controls></video> -> Adds thumbnail to the video or it adds a staring picture to the video
+          -> <video src "video file"poster="image file" autoplay controls></video> -> Automatically start playing the video when we open the page
+          -> <iframe></iframe>   ->peek into other website video from youtube
+
+To embed youtube video go to the video->share->embed:
+                        -> <ul>   ->unorderd list
+                        -> <li>   ->list
+                        -> <ol>   ->Ordered list
+                
